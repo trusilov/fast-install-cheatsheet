@@ -1,0 +1,1 @@
+# fast-install-cheatsheet
