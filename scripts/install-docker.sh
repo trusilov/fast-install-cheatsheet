@@ -16,7 +16,7 @@ usageHelp
 
 printf "${GREEN}UPDATE AND INSTALL DEPENDENCIES${NC} \n"
 sudo apt update -y && sudo apt upgrade -y
-sudo apt install curl
+sudo apt install curl -y
 
 printf "${GREEN}DOCKER INSTALL${NC} \n"
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
