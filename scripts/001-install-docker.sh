@@ -1,16 +1,22 @@
 #!/bin/bash
 
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
+printf "${GREEN}INSTALLING DOCKER${NC} \n"
+
 function usageHelp () {
 	cat << EOF
  ***********************   USAGE   ***********************
+
                   Enter your sudo password
+               (If you run only this script)
 
  *********************************************************
 EOF
 }
 
-GREEN='\033[0;32m'
-NC='\033[0m' # No Color
+
 
 usageHelp
 
